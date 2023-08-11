@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #3-print_alphabt.py
 """Print all the letters except q and e"""
-for letter in range(97, 123):
-    if chr(letter) is not 'q' and chr(letter) is not 'e':
-        print("{}".format(chr(letter)), end="")
+for char in range(ord('a'), ord('z')+1):
+    if char != ord('q') and char != ord('e'):
+        print(chr(char), end='')
