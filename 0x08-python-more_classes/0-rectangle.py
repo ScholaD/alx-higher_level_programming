@@ -4,4 +4,5 @@
 
 class Rectangle:
     """show a rectangle."""
+
     pass
